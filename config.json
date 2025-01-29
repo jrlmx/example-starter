@@ -1,0 +1,13 @@
+{
+    "$schema": "../../schema/starter-schema.json",
+    "composer": {
+        "production": ["livewire/livewire","laravel/folio", "livewire/volt"],
+        "development": ["wire-elements/wire-spy"]
+    },
+    "npm": {
+        "remove": ["axios"]
+    },
+    "remove_files": ["resources/views/welcome.blade.php", "resources/js/bootstrap.js"],
+    "artisan_commands": ["quiet:folio:install", "quiet:volt:install"],
+    "commands": ["git init", "git add .", "git commit -m \"initial\""]
+}

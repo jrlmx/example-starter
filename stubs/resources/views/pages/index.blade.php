@@ -1,6 +1,6 @@
 <?php
 
-use Laravel\Folio\name;
+use function Laravel\Folio\name;
 
 name("welcome");
 

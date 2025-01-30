@@ -12,8 +12,14 @@ name("welcome");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
-    <h1>Welcome</h1>
+<body class="min-h-screen">
+    <div class="max-w-xl p-6">
+        <h1 class="text-xl">Sourdough</h1>
+        <p>
+            A cusomizable installer for new Laravel projects.
+        </p>
+    </div>
 </body>
 </html>

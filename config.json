@@ -9,6 +9,6 @@
         "remove": ["axios"]
     },
     "remove_files": ["resources/views/welcome.blade.php", "resources/js/bootstrap.js"],
-    "artisan_commands": ["folio:install", "volt:install"],
+    "artisan_commands": ["folio:install", "volt:install", "solo:install"],
     "commands": ["quiet:git init", "quiet:git add .", "quiet:git commit -m \"initial\""]
 }

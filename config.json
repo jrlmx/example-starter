@@ -2,7 +2,7 @@
     "$schema": "../../schema/starter-schema.json",
     "flags": ["--no-interaction"],
     "composer": {
-        "production": ["livewire/livewire","laravel/folio", "livewire/volt"],
+        "production": ["livewire/livewire", "laravel/folio", "livewire/volt"],
         "development": ["wire-elements/wire-spy"]
     },
     "npm": {

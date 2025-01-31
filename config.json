@@ -3,7 +3,7 @@
     "flags": ["--no-interaction"],
     "composer": {
         "production": ["livewire/livewire", "laravel/folio", "livewire/volt"],
-        "development": ["wire-elements/wire-spy"]
+        "development": ["wire-elements/wire-spy", "soloterm/solo"]
     },
     "npm": {
         "remove": ["axios"]

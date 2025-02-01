@@ -6,9 +6,9 @@
         "development": ["wire-elements/wire-spy", "soloterm/solo"]
     },
     "npm": {
-        "remove": ["axios"]
+        "development": ["tailwindcss", "@tailwindcss/vite"]
     },
-    "remove_files": ["resources/views/welcome.blade.php", "resources/js/bootstrap.js"],
+    "remove_files": ["resources/views/welcome.blade.php", "resources/js/bootstrap.js", "tailwind.config.js"],
     "artisan_commands": ["folio:install", "volt:install", "solo:install"],
     "commands": ["quiet:git init", "quiet:git add .", "quiet:git commit -m \"initial\""]
 }

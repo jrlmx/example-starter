@@ -6,7 +6,7 @@
         "development": ["wire-elements/wire-spy", "soloterm/solo"]
     },
     "npm": {
-        "development": ["tailwindcss", "@tailwindcss/vite"]
+        "development": ["tailwindcss@^4.0.0", "@tailwindcss/vite"]
     },
     "remove_files": ["resources/views/welcome.blade.php", "resources/js/bootstrap.js", "tailwind.config.js"],
     "artisan_commands": ["folio:install", "volt:install", "solo:install"],

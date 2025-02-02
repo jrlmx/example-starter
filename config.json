@@ -3,7 +3,7 @@
     "flags": ["--no-interaction"],
     "composer": {
         "production": ["livewire/livewire", "laravel/folio", "livewire/volt"],
-        "development": ["wire-elements/wire-spy", "soloterm/solo"]
+        "development": ["wire-elements/wire-spy"]
     },
     "npm": {
         "development": ["tailwindcss@^4.0.0", "@tailwindcss/vite"]

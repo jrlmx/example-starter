@@ -1,14 +1,13 @@
 {
     "$schema": "../../schema/starter-schema.json",
-    "flags": ["--no-interaction"],
+    "flags": ["--no-interaction", "--livewire", "--database=sqlite", "--pest", "--git"],
     "composer": {
-        "production": ["livewire/livewire", "laravel/folio", "livewire/volt"],
-        "development": ["wire-elements/wire-spy"]
+        "production": ["livewire/livewire", "laravel/folio", "livewire/volt"]
     },
     "npm": {
-        "development": ["tailwindcss@^4.0.0", "@tailwindcss/vite"]
+        "development": []
     },
-    "remove_files": ["resources/views/welcome.blade.php", "resources/js/bootstrap.js", "tailwind.config.js"],
-    "artisan_commands": ["folio:install", "volt:install"],
-    "commands": ["quiet:git init", "quiet:git add .", "quiet:git commit -m \"initial\""]
+    "remove_files": ["resources/js/bootstrap.js", "tailwind.config.js"],
+    "artisan_commands": [],
+    "commands": []
 }

@@ -1,13 +1,14 @@
 {
     "$schema": "../../schema/starter-schema.json",
-    "flags": ["--no-interaction", "--livewire", "--database=sqlite", "--pest", "--git"],
+    "flags": ["--no-interaction", "--database=sqlite", "--pest", "--git"],
     "composer": {
-        "production": ["livewire/livewire", "laravel/folio", "livewire/volt"]
+        "production": ["livewire/livewire", "laravel/folio", "livewire/volt", "livewire/flux"]
     },
     "npm": {
-        "development": []
+        "development": ["prettier", "prettier-plugin-blade", "prettier-plugin-tailwindcss"]
     },
     "remove_files": ["resources/js/bootstrap.js", "tailwind.config.js"],
     "artisan_commands": [],
+    "npx_commands": ["@tailwindcss/upgrade"],
     "commands": []
 }

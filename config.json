@@ -10,5 +10,5 @@
     "remove_files": ["resources/js/bootstrap.js", "tailwind.config.js"],
     "artisan_commands": [],
     "npx_commands": [],
-    "commands": ["git init", "git add .", "git commit -m 'initial'", "npx @tailwindcss/upgrade"]
+    "commands": ["git init", "git add .", "git commit -m 'initial'"]
 }

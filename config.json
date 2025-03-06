@@ -21,5 +21,5 @@
     "remove_files": ["resources/js/bootstrap.js", "tailwind.config.js"],
     "artisan_commands": ["folio:install", "volt:install"],
     "npx_commands": [],
-    "commands": ["quiet:git init", "quite:git add .", "quiet:git commit -m 'initial'"]
+    "commands": ["quiet:git init", "quiet:git add .", "quiet:git commit -m 'initial'"]
 }

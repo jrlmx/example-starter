@@ -2,13 +2,24 @@
     "$schema": "../../schema/starter-schema.json",
     "flags": ["--no-interaction", "--database=sqlite", "--pest"],
     "composer": {
-        "production": ["livewire/livewire", "laravel/folio", "livewire/volt", "livewire/flux"]
+        "production": ["livewire/livewire", "laravel/folio", "livewire/volt", "livewire/flux", "livewire/flux-pro"],
+        "development": [],
+        "remove": [],
+        "repositories": [
+            {
+                "name": "flux-pro",
+                "url": "composer.fluxui.dev",
+                "auth": true
+            }
+        ]
     },
     "npm": {
-        "development": ["prettier", "prettier-plugin-blade", "prettier-plugin-tailwindcss"]
+        "production": [],
+        "development": ["prettier", "prettier-plugin-blade", "prettier-plugin-tailwindcss"],
+        "remove": []
     },
     "remove_files": ["resources/js/bootstrap.js", "tailwind.config.js"],
-    "artisan_commands": [],
+    "artisan_commands": ["folio:install", "volt:install"],
     "npx_commands": [],
-    "commands": ["git init", "git add .", "git commit -m 'initial'"]
+    "commands": ["quiet:git init", "quite:git add .", "quiet:git commit -m 'initial'"]
 }

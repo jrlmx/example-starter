@@ -18,7 +18,7 @@ name("welcome");
     <div class="max-w-xl p-6">
         <h1 class="text-xl">Sourdough</h1>
         <p>
-            A cusomizable installer for new Laravel projects.
+            A customizable installer for new Laravel projects.
         </p>
     </div>
 </body>
